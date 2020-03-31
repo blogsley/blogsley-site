@@ -55,9 +55,13 @@ or
 
 ## Deployment
 
+Login if you aren't already
+
+        heroku login
+
 Add Heroku remote
 
-        heroku git:remote -a blogsley-jam
+        heroku git:remote -a blogsley-site
 
 Push server folder to Heroku
 

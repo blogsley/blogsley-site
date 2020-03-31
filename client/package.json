@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "develop": "vue-cli-service serve",
+    "serve": "vue-cli-service serve",
     "lint": "vue-cli-service lint",
     "clean": "rimraf ./dist/",
     "build-client": "vue-cli-service build",
