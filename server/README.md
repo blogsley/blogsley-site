@@ -59,10 +59,8 @@ Login if you aren't already
 
         heroku login
 
-Add Heroku remote
+Set the publish hook
 
-        heroku git:remote -a blogsley-site
+        heroku config:set PUBLISH_HOOK=https://api.netlify.com/build_hooks/{ your key here }
 
-Push server folder to Heroku
-
-        git subtree push --prefix server heroku master
+        git push heroku master
